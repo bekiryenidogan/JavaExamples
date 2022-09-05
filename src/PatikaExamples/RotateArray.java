@@ -16,7 +16,7 @@ public class RotateArray {
             nums[i - (nums.length - k)] = nums[i];
         }
         for (int i = k; i < nums.length; i++) {
-            nums[i] = temp[i - k];
+             nums[i] = temp[i - k];
         }
     }
 }
